@@ -9,3 +9,4 @@ This script solves this by turning F7, F8 and F9 into keys which queue up the mo
 
 The reason this uses F10, F9, F8 and F7 is that there are a few other available keys that when sent from KDE Connect can be recognized by AutoHotKey. 
  
+Another open source alternative to this is to use a remote desktop client like Moonlight/Apollo, which seems to handle modifier keys better. RustDesk may also do the trick.
