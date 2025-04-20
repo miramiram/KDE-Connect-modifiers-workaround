@@ -15,4 +15,5 @@ This script solves this by turning F7, F8 and F9 into keys which queue up the mo
 ## Tips & alternatives
 
 This works best when you use KDE connect on an android phone with the keyboard app "Unexpected Keyboard" from F-Droid. This is an open source app which gives you access to all kinds of keys a PC uses, including the F* keys. 
-Another open source alternative to this is to use a remote desktop client like Moonlight/Apollo, which seems to handle modifier keys better. RustDesk may also do the trick.
+
+Another open source alternative to KDE Connect and this script is to use a remote desktop client like Moonlight/Apollo, which seems to handle modifier keys better. RustDesk may also do the trick. If you're fine with just using a terminal, SSH-ing into a computer through apps like Termux or ConnectBot will also let you use the modifier keys on UnexpectedKeyboard without issues.
