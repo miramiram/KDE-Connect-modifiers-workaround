@@ -1,6 +1,6 @@
 # KDE Connect AHK Script - Clean Windows modifiers
 
-This is a tiny repository containing an autohotkey script to enable using shift/ctrl/alt/tab with KDE Connect on Windows, a personal script I realized someone else out there might have use for.
+This is a tiny repository containing a AutoHotkey V1 script with a workaround for using the shift/ctrl/alt/tab keys with KDE Connect on Windows, without the bugs these entail in some cases. Intended to be used with a keyboard app like Unexpected Keyboard.
 
 ## Why
 
@@ -14,6 +14,6 @@ This script solves this by turning F7, F8 and F9 into keys which queue up the mo
 
 ## Tips & alternatives
 
-This works best when you use KDE connect on an android phone with the keyboard app "Unexpected Keyboard" from F-Droid. This is an open source app which gives you access to all kinds of keys a PC uses, including the F* keys. 
+This works best when you use KDE connect on an android phone with the keyboard app "Unexpected Keyboard" (Available in the Play-Store and F-Droid). This is an open source app which gives you access to all kinds of keys a PC uses, including the F* keys. 
 
 Another open source alternative to KDE Connect and this script is to use a remote desktop client like Moonlight/Apollo, which seems to handle modifier keys better. RustDesk may also do the trick. If you're fine with just using a terminal, SSH-ing into a computer through apps like Termux or ConnectBot will also let you use the modifier keys on UnexpectedKeyboard without issues.
