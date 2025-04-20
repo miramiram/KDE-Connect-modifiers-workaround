@@ -8,7 +8,9 @@ I personally had a need for this as I wanted to code on my PC using my phone as 
  
 ## How
 
-This script solves this by turning F7, F8 and F9 into keys which queue up the modifiers control shift or alt (F10 is currently used for tab because that also had an issue). The way they work is that after you press e.g. F9, if you press another key within a second or so, that key will be combined with the CTRL key. Because this modifier key combination will be sent from Autobotkin instead of KD Connect, Terminal programs like Vim won't have an issue with it. 
+This script solves this by turning F7, F8 and F9 into keys which queue up the CTRL, SHIFT and ALT modifiers _(F10 is additionally used for tab because that also has occasional issues)_. The way these keys work with this script is that after you press e.g. F9, if you press another key within a second or so, that key will be combined with the CTRL key. Because this modifier key combination will be sent from AutoHotKey instead of KDE Connect, Terminal programs like Vim won't have an issue with it. 
+
+You can easily modify the script to remove the modifiers you don't need, or change their keybinds. Beware that if you want to use different keys for this you'll likely have to do a lot of testing with AHK's Windows Spy, to find keys which KDE connect doesn't send in the not-usable-by-ahk virtual scankey formats. 
 
 _(The reason this script uses F10, F9, F8 and F7 is that there are a few other available keys that when sent from KDE Connect can be recognized by AutoHotKey.)_
 
