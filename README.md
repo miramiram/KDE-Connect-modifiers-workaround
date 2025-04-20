@@ -1,5 +1,5 @@
 # kde_connect_modifiers
-This is a tiny repository containing an autohotkey script to enable using shift/ctrl/alt/tab with KDE Connect on Windows.
+This is a tiny repository containing an autohotkey script to enable using shift/ctrl/alt/tab with KDE Connect on Windows, a personal script I realized someone else out there migbt have use for.
 
 This works best when you use KDE connect on an android phone with the keyboard app "Unexpected Keyboard" from F-Droid. This is an open source app which gives you access to all kinds of keys a PC uses, including the F* keys. 
 
